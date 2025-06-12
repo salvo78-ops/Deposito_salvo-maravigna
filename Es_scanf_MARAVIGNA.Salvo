@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    char nome [50];
+    int num1, num2;
+    int somma;
+    
+    printf("Inserisci il tuo nome: ");
+    scanf("%s",nome);
+    printf("Inserisci il primo numero intero: ");
+    scanf("%d",&num1);
+    printf("Inserisci il secondo numero intero: ");
+    scanf("%d",&num2);
+    somma= num1+num2;
+    printf("%s, la somma dei due numeri è: %d\n",nome, somma);
+    return 0;
+}
