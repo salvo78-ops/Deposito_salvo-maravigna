@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int numero;
+
+int main()
+{
+    printf("inserisci un numero intero: ");
+    scanf("%d", &numero);
+    
+    //Condizione logica :verifica se il numero è positivo o negativo
+    if (numero>0);{
+    printf("il numero è positivo.\n");
+    
+        if(numero>100){
+        printf("wow.");
+        }
+
+    else if (numero<0){
+    printf(" il numero è negativo.\n");
+    
+    }else{;
+    printf ("il numero è uguale a 0");
+    }
+    
+    return 0;
+}
